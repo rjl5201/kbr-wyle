@@ -1,4 +1,5 @@
 package testShapes;
+
 import static org.junit.Assert.*;
 import org.junit.Test;
 
@@ -19,7 +20,6 @@ import org.junit.Test;
 		double perim = tester.getPerimeter();
 		assertEquals(perim, 12, .01);
 	}*/
-
 
 import shapes.Triangle;
 

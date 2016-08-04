@@ -5,12 +5,11 @@ public class Rectangle implements Shape {
 	private double length;
 	private double width;
 
-	public Rectangle(double length, double width){
+	public Rectangle(double length, double width) {
 		this.length = length;
-		this.width = width;	
+		this.width = width;
 	}
-	
-	
+
 	@Override
 	public double getArea() {
 		double area = length * width;
@@ -19,7 +18,7 @@ public class Rectangle implements Shape {
 
 	@Override
 	public double getPerimeter() {
-		double perim = 2*(width+length);	
+		double perim = 2 * (width + length);
 		return perim;
 	}
 
